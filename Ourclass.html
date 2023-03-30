@@ -68,5 +68,27 @@
 </body>
 
 <style>
+    body {
+        display: grid;
+        grid:
+            "  h  h    .  " auto " .   n    n  " auto "  .  m    .  " auto "f    f   ." auto / 1fr 5fr 1fr;
+        grid-gap: 10%;
 
+    }
+
+    header {
+        grid-area: h;
+    }
+
+    nav {
+        grid-area: n;
+    }
+
+    main {
+        grid-area: m;
+    }
+
+    footer {
+        grid-area: f;
+    }
 </style>
