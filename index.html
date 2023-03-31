@@ -48,7 +48,7 @@
     body {
         display: grid;
         grid:
-            "  h  h    .  " auto " .   n    n  " auto "  .  m    .  " auto "f    f   ." auto / 1fr 5fr 1fr;
+            "  h  h    .  " auto " .  n    n  " auto "  .  m    .  " auto "f    .   ." auto / 1fr 5fr 1fr;
         grid-gap: 10%;
 
     }
@@ -68,6 +68,10 @@
     footer {
         grid-area: f;
 
+    }
+
+    div {
+        display: flex;
     }
 
     h1 {
@@ -100,6 +104,7 @@
     footer:hover {
         background-color: #EE81A2;
         color: #691149;
+
     }
 
     a:hover {
@@ -108,6 +113,10 @@
     }
 
     img {
-        height: 10rem;
+        height: 11rem;
+        display: block;
+        /* padding-left: 2.5%;
+        padding-right: 2.5%; */
+        border: 25px solid #691149;
     }
 </style>
