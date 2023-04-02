@@ -30,7 +30,7 @@
 
     <main>
         <h3> Student Profiles</h3>
-        <div>
+        <div class="container">
             <div>
                 <h4>Ruòxī</h4>
                 <img src="ruòxī.jpg" alt="Picture of Ruòxī">
@@ -49,6 +49,8 @@
                     * Animal classification apps
                 </p>
             </div>
+        </div>
+        <div class="container">
             <div>
                 <h4>Aniyah</h4>
                 <img src="aniyah.jpg" alt="Picture of Aniyah">
@@ -67,18 +69,16 @@
                     * Long-term extracurricular trends
                 </p>
             </div>
-            <div>
-                <h4>Kaiara</h4>
-                <img src="kaiara.jpg" alt="Picture of Kaiara">
-                <p>Kaiara is a driven entrepreneur and drives app development forward. She’s worked on:
-                    * Ecommerce systems
-                    * Payment handling software
-                    * Stock management apps
-                </p>
-            </div>
-            </li>
         </div>
-        x
+        <div class="container">
+            <h4>Kaiara</h4>
+            <img src="kaiara.jpg" alt="Picture of Kaiara">
+            <p>Kaiara is a driven entrepreneur and drives app development forward. She’s worked on:
+                * Ecommerce systems
+                * Payment handling software
+                * Stock management apps
+            </p>
+        </div>
         </div>
     </main>
 
@@ -95,7 +95,7 @@
     body {
         display: grid;
         grid:
-            "  h  h     " auto " .   n     " auto "  .  m     " auto "f    f   " auto / 3fr 4fr;
+            "  h  h     " auto " .   n     " auto "  m  m     " auto "f    f   " auto / 3fr 4fr;
         grid-gap: 1%;
 
     }
@@ -116,6 +116,11 @@
         grid-area: f;
     }
 
+    .container {
+        display: flex;
+        flex-direction: row;
+    }
+
     h1 {
         font-family: 'Edu NSW ACT Foundation', cursive;
 
@@ -125,12 +130,17 @@
         font-family: 'Edu NSW ACT Foundation', cursive;
     }
 
+    .container {
+        gap: 5%;
+    }
+
     h3 {
         font-family: 'Quicksand', sans-serif;
     }
 
     h4 {
         font-family: 'Edu NSW ACT Foundation', cursive;
+        font-size: 130%;
     }
 
     body {
@@ -158,9 +168,5 @@
 
     a {
         color: #FFADB0;
-    }
-
-    li {
-        padding-bottom: 12%;
     }
 </style>
