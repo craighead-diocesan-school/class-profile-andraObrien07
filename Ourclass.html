@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 
-
+<html>
 
 <head>
     <meta charset="UTF-8">
@@ -31,7 +31,7 @@
     <main>
         <h3> Student Profiles</h3>
         <div class="container">
-            <div>
+            <div class="student">
                 <h4>Ruòxī</h4>
                 <img src="ruòxī.jpg" alt="Picture of Ruòxī">
                 <p>Ruòxī is a boisterous student who likes to get stuck in with practical work. She’s worked on:
@@ -40,7 +40,7 @@
                     * Sports training systems
                 </p>
             </div>
-            <div>
+            <div class="student">
                 <h4>Priya</h4>
                 <img src="priya.jpg" alt="Picture of Priya">
                 <p>Priya loves working with people and visual systems. Shes worked on:
@@ -51,19 +51,19 @@
             </div>
         </div>
         <div class="container">
-            <div>
+            <div class="student">
                 <h4>Aniyah</h4>
                 <img src="aniyah.jpg" alt="Picture of Aniyah">
-                <p>Aniyah is a mathematician through-and-through. She’s worked on:
+                <p>Aniyah is a mathematician through-and-through. Shes worked on:
                     * Algorithm classification
                     * Prime number factorisation
                     * Computer graphics
                 </p>
             </div>
-            <div>
+            <div class="student">
                 <h4>Lucy</h4>
                 <img src="lucy.jpg" alt="Picture of Lucy">
-                <p>Lucy loves data and getting everything organised. She’s worked on:
+                <p>Lucy loves data and getting everything organised. Shes worked on:
                     * Course choice prediction systems
                     * Student information systems
                     * Long-term extracurricular trends
@@ -71,14 +71,15 @@
             </div>
         </div>
         <div class="container">
-            <h4>Kaiara</h4>
-            <img src="kaiara.jpg" alt="Picture of Kaiara">
-            <p>Kaiara is a driven entrepreneur and drives app development forward. She’s worked on:
-                * Ecommerce systems
-                * Payment handling software
-                * Stock management apps
-            </p>
-        </div>
+            <div class="student">
+                <h4>Kaiara</h4>
+                <img src="kaiara.jpg" alt="Picture of Kaiara">
+                <p>Kaiara is a driven entrepreneur and drives app development forward. Shes worked on:
+                    * Ecommerce systems
+                    * Payment handling software
+                    * Stock management apps
+                </p>
+            </div>
         </div>
     </main>
 
@@ -86,6 +87,7 @@
     <footer>
         The girls are in their final year at secondary school and are all working on personal projects that interest
         them.
+        <p>&copy; ur name 2023</p>
     </footer>
 </body>
 
@@ -132,6 +134,7 @@
 
     .container {
         gap: 5%;
+        align-items: baseline;
     }
 
     h3 {
@@ -157,8 +160,9 @@
     }
 
     img {
-        width: 10em;
+        height: 20em;
         border: 10px solid #EE81A2;
+
     }
 
     a:hover {
@@ -169,4 +173,10 @@
     a {
         color: #FFADB0;
     }
+
+    .student {
+        width: 50%;
+    }
 </style>
+
+</html>
