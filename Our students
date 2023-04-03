@@ -4,7 +4,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <title> Your website </title>
+    <title> Flexigrid School website </title>
     <link rel="icon" href="favicon.ico">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -108,6 +108,8 @@
     .container {
         display: flex;
         flex-direction: row;
+        gap: 5%;
+        align-items: baseline;
     }
 
     h1 {
@@ -118,13 +120,6 @@
     h2 {
         font-family: 'Edu NSW ACT Foundation', cursive;
     }
-
-    .container {
-        gap: 5%;
-        align-items: baseline;
-    }
-
-
 
     body {
         font-family: 'Quicksand', sans-serif;
@@ -150,8 +145,10 @@
         background-color: #691149;
     }
 
+
     a {
         color: #691149;
+        padding: 5%;
     }
 
     .student {
