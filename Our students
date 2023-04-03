@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title> Your website </title>
+    <link rel="icon" href="favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation:wght@500&family=Quicksand:wght@300&display=swap"
+        rel="stylesheet">
+</head>
+
+<nav>
+    <a href="index.html">Our School </a>
+    <a href="Ourclass.html">Our Class</a>
+</nav>
+
+<main>
+    <h1> Student Profiles</h1>
+    <div class="container">
+        <div class="student">
+            <h2>Ruòxī</h2>
+            <img src="ruòxī.jpg" alt="Picture of Ruòxī">
+            <p>Ruòxī is a boisterous student who likes to get stuck in with practical work. She’s worked on:
+                * Electric cars
+                * Robotic arms
+                * Sports training systems
+            </p>
+        </div>
+        <div class="student">
+            <h2>Priya</h2>
+            <img src="priya.jpg" alt="Picture of Priya">
+            <p>Priya loves working with people and visual systems. Shes worked on:
+                * Facial recognition software
+                * Self-driving systems
+                * Animal classification apps
+            </p>
+        </div>
+    </div>
+    <div class="container">
+        <div class="student">
+            <h2>Aniyah</h2>
+            <img src="aniyah.jpg" alt="Picture of Aniyah">
+            <p>Aniyah is a mathematician through-and-through. Shes worked on:
+                * Algorithm classification
+                * Prime number factorisation
+                * Computer graphics
+            </p>
+        </div>
+        <div class="student">
+            <h2>Lucy</h2>
+            <img src="lucy.jpg" alt="Picture of Lucy">
+            <p>Lucy loves data and getting everything organised. Shes worked on:
+                * Course choice prediction systems
+                * Student information systems
+                * Long-term extracurricular trends
+            </p>
+        </div>
+    </div>
+    <div class="container">
+        <div class="student">
+            <h2>Kaiara</h2>
+            <img src="kaiara.jpg" alt="Picture of Kaiara">
+            <p>Kaiara is a driven entrepreneur and drives app development forward. Shes worked on:
+                * Ecommerce systems
+                * Payment handling software
+                * Stock management apps
+            </p>
+        </div>
+    </div>
+</main>
+
+
+<footer>
+    The girls are in their final year at secondary school and are all working on personal projects that interest
+    them.
+    <p>&copy; Andra Coman 2023</p>
+</footer>
+</body>
+<style>
+    body {
+        display: grid;
+        grid:
+            "  h  h     " auto " .   n     " auto "  m  m     " auto "f    f   " auto / 3fr 4fr;
+        grid-gap: 1%;
+
+    }
+
+    header {
+        grid-area: h;
+    }
+
+    nav {
+        grid-area: n;
+    }
+
+    main {
+        grid-area: m;
+    }
+
+    footer {
+        grid-area: f;
+    }
+
+    .container {
+        display: flex;
+        flex-direction: row;
+    }
+
+    h1 {
+        font-family: 'Edu NSW ACT Foundation', cursive;
+
+    }
+
+    h2 {
+        font-family: 'Edu NSW ACT Foundation', cursive;
+    }
+
+    .container {
+        gap: 5%;
+        align-items: baseline;
+    }
+
+
+
+    body {
+        font-family: 'Quicksand', sans-serif;
+        background-color: #FFADB0;
+        color: #691149;
+        margin: 7%;
+        padding-bottom: 5%;
+
+    }
+
+    footer {
+        font-family: 'Edu NSW ACT Foundation', cursive;
+    }
+
+    img {
+        height: 20em;
+        border: 20px solid #EE81A2;
+
+    }
+
+    a:hover {
+        color: #EE81A2;
+        background-color: #691149;
+    }
+
+    a {
+        color: #691149;
+    }
+
+    .student {
+        width: 50%;
+    }
+</style>
+
+</html>
