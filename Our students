@@ -24,19 +24,27 @@
         <div class="student">
             <h2>Ruòxī</h2>
             <img src="ruòxī.jpg" alt="Picture of Ruòxī">
-            <p>Ruòxī is a boisterous student who likes to get stuck in with practical work. She’s worked on:
-                * Electric cars
-                * Robotic arms
-                * Sports training systems
+            <p>Ruòxī is a boisterous student who likes to get stuck in with practical work.
+            <h3>Shes worked on:
+                <ul>
+                    <li> Electric cars</li>
+                    <li> Robotic arms</li>
+                    <li> Sports training systems</li>
+                </ul>
+            </h3>
             </p>
         </div>
         <div class="student">
             <h2>Priya</h2>
             <img src="priya.jpg" alt="Picture of Priya">
-            <p>Priya loves working with people and visual systems. Shes worked on:
-                * Facial recognition software
-                * Self-driving systems
-                * Animal classification apps
+            <p>Priya loves working with people and visual systems.
+            <h3> Shes worked on:
+                <ul>
+                    <li> Facial recognition software</li>
+                    <li> Self-driving systems</li>
+                    <li> Animal classification apps</li>
+                </ul>
+            </h3>
             </p>
         </div>
     </div>
@@ -44,19 +52,27 @@
         <div class="student">
             <h2>Aniyah</h2>
             <img src="aniyah.jpg" alt="Picture of Aniyah">
-            <p>Aniyah is a mathematician through-and-through. Shes worked on:
-                * Algorithm classification
-                * Prime number factorisation
-                * Computer graphics
+            <p>Aniyah is a mathematician through-and-through.
+            <h3>Shes worked on:
+                <ul>
+                    <li> Algorithm classification</li>
+                    <li> Prime number factorisation</li>
+                    <li> Computer graphics</li>
+                </ul>
+            </h3>
             </p>
         </div>
         <div class="student">
             <h2>Lucy</h2>
             <img src="lucy.jpg" alt="Picture of Lucy">
-            <p>Lucy loves data and getting everything organised. Shes worked on:
-                * Course choice prediction systems
-                * Student information systems
-                * Long-term extracurricular trends
+            <p>Lucy loves data and getting everything organised.
+            <h3>Shes worked on:
+                <ul>
+                    <li> Course choice prediction systems</li>
+                    <li> Student information systems</li>
+                    <li> Long-term extracurricular trends</li>
+                </ul>
+            </h3>
             </p>
         </div>
     </div>
@@ -64,10 +80,14 @@
         <div class="student">
             <h2>Kaiara</h2>
             <img src="kaiara.jpg" alt="Picture of Kaiara">
-            <p>Kaiara is a driven entrepreneur and drives app development forward. Shes worked on:
-                * Ecommerce systems
-                * Payment handling software
-                * Stock management apps
+            <p>Kaiara is a driven entrepreneur and drives app development forward.
+            <h3>Shes worked on:
+                <ul>
+                    <li> Ecommerce systems</li>
+                    <li> Payment handling software</li>
+                    <li> Stock management apps</li>
+                </ul>
+            </h3>
             </p>
         </div>
     </div>
@@ -84,7 +104,7 @@
     body {
         display: grid;
         grid:
-            "  h  h     " auto " .   n     " auto "  m  m     " auto "f    f   " auto / 3fr 4fr;
+            "  h  n     " auto "  m  m     " auto "f    f   " auto / 3fr 4fr;
         grid-gap: 1%;
 
     }
@@ -120,6 +140,7 @@
     h2 {
         font-family: 'Edu NSW ACT Foundation', cursive;
     }
+
 
     body {
         font-family: 'Quicksand', sans-serif;
