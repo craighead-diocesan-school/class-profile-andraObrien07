@@ -137,6 +137,7 @@
     img {
         height: 20em;
         border: 20px solid #EE81A2;
+        border-radius: 50%;
 
     }
 
